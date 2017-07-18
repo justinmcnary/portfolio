@@ -1,0 +1,103 @@
+body {
+  padding-top: 60px;
+}
+a {
+  color: black;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-default .navbar-brand {
+  color:black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+	  top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+	  top: 6px;
+	  transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	  background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	  top: -6px;
+	  transform: rotate(-45deg);
+}
+
+/*Hero Image*/
+.hero-section {
+  background: url("jmcbw.png") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.hero-section2 {
+  background: url("charbw.png") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: white;
+  text-shadow: 1px 1px 2px #0a0a0a;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero-section2 .hero-section-text {
+  color: white;
+  text-shadow: 1px 1px 2px #0a0a0a;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (max-width : 480px) {
+    .hero-container {
+      padding: 0;
+    }
+}
