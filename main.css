@@ -101,8 +101,15 @@ a {
   font-family: 'Raleway500', sans-serif;
 }
 
+.footer {
+  background-color: black;
+}
+
 .footer-list li {
   display: inline;
+}
+.footer a {
+  color: white;
 }
 
 @media only screen and (max-width : 480px) {
