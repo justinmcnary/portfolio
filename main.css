@@ -96,6 +96,15 @@ a {
   font-family: 'Raleway', sans-serif;
 }
 
+.mail {
+  color: black;
+  font-family: 'Raleway500', sans-serif;
+}
+
+.footer-list li {
+  display: inline;
+}
+
 @media only screen and (max-width : 480px) {
     .hero-container {
       padding: 0;
